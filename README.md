@@ -1,26 +1,49 @@
-#Starter Kit React Redux App
+# React Redux App
 
-npm install
+This is the starter kit for react redux with es6. Includes some sample pages created.
 
+Sample Page. 
+- Crud : Demonstrates a list of Users and CRUD operarions on it.
+
+# Installation
+
+```sh
+ npm install
+```
 To start the app 
+
+```sh
 npm start
+```
 
 To run unit test in dev mode
+```sh
 npm run test:watch
+```
 
-
-# Webpack for building and deploying app. TODO Use gulp to build app
 
 # Testing
-Using Mocha with chai prefered over JEST as JEST is slower to run the unit tests because of the mocking.
-React test are written using Enzyme.
+Unit test written using Mocha Chai and Enzyme.
+
+Using JS DOM instead of browser DOM.
+
+Using Mocha with chai prefered over JEST as JEST is slower to run the unit tests because of the default mocking.
 
 # Tech Used.
-React
-Redux
-Thunk
-Mocha 
-Chai
-Enzyme
-Webpack
+- React
+- Redux
+- Thunk
+- Mocha 
+- Chai
+- Enzyme
+- Webpack
+- es6
+- Babel
 
+
+# TODO 
+- Add unit tests for Redux
+- Integrate with Node Js.
+- Explore using RxJS.
+- Use Instanbul to determine code coverage.
+- Make Production build related changes. Explore if gulp a better choice than webpack.
