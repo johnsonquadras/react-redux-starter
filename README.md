@@ -47,3 +47,7 @@ Using Mocha with chai prefered over JEST as JEST is slower to run the unit tests
 - Explore using RxJS.
 - Use Instanbul to determine code coverage.
 - Make Production build related changes. Explore if gulp a better choice than webpack.
+
+# Reference 
+- Unit tests
+https://github.com/reactjs/redux/blob/master/docs/recipes/WritingTests.md
