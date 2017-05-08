@@ -8,10 +8,10 @@ export class CrudPage extends React.Component {
     constructor(props, context) {
         super(props, context);
 
-        //Intialize state
-        this.state = {
-            user: { title: "" }
-        };
+        // //Intialize state
+        // this.state = {
+        //     user: { title: "" }
+        // };
 
         this.deleteUser = this.deleteUser.bind(this);
     }
