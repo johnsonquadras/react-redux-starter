@@ -25,9 +25,9 @@ export class CrudPage extends React.Component {
         const { users } = this.props;
         return (
             <div className="panel panel-default">
-                <div className="panel-heading">Users Section</div>
+                <div className="panel-heading">Users Section </div>
                 <div className="panel-body">
-                    <p>This is the Sample page showing a list of users.</p>
+                    <p>This is the Sample page showing a list of USERS.</p>
                     <List users={users} onDelete={this.deleteUser}></List>
                 </div>
             </div>
